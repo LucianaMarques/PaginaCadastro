@@ -1,6 +1,6 @@
 <?php
-$nome = $_POST["name"];
+$name = $_POST["name"];
 $email = $_POST["email"];
-$endereco = $_POST["cpf"];
+$cpf = $_POST["cpf"];
 $mensagem - $_POST[""];
 ?>
