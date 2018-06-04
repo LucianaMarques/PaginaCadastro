@@ -3,9 +3,15 @@
 <title> Cadastro de Usuário </title>
 </head>
 <body>
-<form method="POST" action="https://dev.biologix.com.br/api/v1/core/users/add">
-<label>Login:</label><input type="text" name="login" id="login"><br>
-<label>Senha:</label><input type="password" name="senha" id="senha"><br>
+<form method="POST" action="index.php">
+<label>Name:</label><input type="text" name="name" id="name"><br>
+<label>E-mail:</label><input type="text" name="email" id="email"><br>
+<label>CPF:</label><input type="number" name="cpf" id="cpf"><br>
+<label>Birth Date:</label><input type="text" name="birthDate" id="birthDate"><br>
+<label>Password:</label><input type="password" name="password" id="password"><br>
+<label>Password Retype:</label><input type="password" name="passwordRetype" id="passwordRetype"><br>
+<label>Gender:</label><input type="text" name="gender" id="gender"><br>
+<label>Accepted Terms:</label><input type="boolean" name="acceptedTerms" id="acceptedTerms"><br>
 <input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">
 </form>
 </body>
